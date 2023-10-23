@@ -1,0 +1,87 @@
+body{
+    box-sizing: border-box;
+
+}
+nav{
+    height: 90px;
+    width:100% ;
+    background-color: rgb(245, 216, 89);
+}
+.logo{
+    height: 65px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+ol{
+    list-style: none;
+    float: right;
+}
+ol li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+ol li a{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(243, 36, 9);
+    
+}
+ol li a:hover{
+    color: #082bf1;
+
+}
+.Gents{
+    height: 800px;
+    background-color: aquamarine;
+    align-items: baseline;
+}
+h1{
+    font-size: large;
+    margin-left: 20px;
+    text-align: center;
+    color: darkgoldenrod;
+    padding: 15px;
+}
+.container {
+max-width: 1200px;
+margin: auto;
+background-color: bisque;
+overflow: auto;
+}
+.gallery{
+    margin:5px;
+    border: 1px solid #ccc;
+    float:left;
+    width:auto;
+
+}
+.gallery img{
+    width:auto;
+    height:200px;
+}
+.caption{
+    padding:15px;
+    text-align: center;
+}
+.Men{
+    height: 800px;
+    width: auto;
+    background-color: darkseagreen;
+}
+.Women{
+    height: 800px;
+    width: auto;
+    background-color:crimson;
+}
+.Children{
+    height: 800px;
+    width: auto;
+    background-color:cadetblue;
+}
